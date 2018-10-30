@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/dana2.5c8eb6c3.jpg"
   },
   {
-    "revision": "246d5efc1dcc718ad9e4",
+    "revision": "a1bcb4acce9fa356d79a",
     "url": "/hw6/static/css/main.f41c4f4f.chunk.css"
   },
   {
-    "revision": "8d661b8fb82c1893fdec",
-    "url": "/hw6/static/js/1.8d661b8f.chunk.js"
+    "revision": "e2ab034dd787d43a920b",
+    "url": "/hw6/static/js/1.e2ab034d.chunk.js"
   },
   {
     "revision": "a039d7b31cc07a1cd8b1",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/dana1.ac0c5746.jpg"
   },
   {
-    "revision": "246d5efc1dcc718ad9e4",
-    "url": "/hw6/static/js/main.246d5efc.chunk.js"
+    "revision": "a1bcb4acce9fa356d79a",
+    "url": "/hw6/static/js/main.a1bcb4ac.chunk.js"
   },
   {
     "revision": "ede98f0c19b18798f99f571f4a7b7a91",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/nickles4.effd3ba2.jpg"
   },
   {
-    "revision": "1a7492815aea5a56c3204b864c18f5a8",
+    "revision": "ae0d3b9b658ed8e2cc6e6439ff38fb91",
     "url": "/hw6/index.html"
   }
 ];

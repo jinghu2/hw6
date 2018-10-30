@@ -1,9 +1,9 @@
 {
   "main.css": "/hw6/static/css/main.f41c4f4f.chunk.css",
-  "main.js": "/hw6/static/js/main.246d5efc.chunk.js",
-  "main.js.map": "/hw6/static/js/main.246d5efc.chunk.js.map",
-  "static/js/1.8d661b8f.chunk.js": "/hw6/static/js/1.8d661b8f.chunk.js",
-  "static/js/1.8d661b8f.chunk.js.map": "/hw6/static/js/1.8d661b8f.chunk.js.map",
+  "main.js": "/hw6/static/js/main.a1bcb4ac.chunk.js",
+  "main.js.map": "/hw6/static/js/main.a1bcb4ac.chunk.js.map",
+  "static/js/1.e2ab034d.chunk.js": "/hw6/static/js/1.e2ab034d.chunk.js",
+  "static/js/1.e2ab034d.chunk.js.map": "/hw6/static/js/1.e2ab034d.chunk.js.map",
   "runtime~main.js": "/hw6/static/js/runtime~main.a039d7b3.js",
   "runtime~main.js.map": "/hw6/static/js/runtime~main.a039d7b3.js.map",
   "static/media/eliberty4.jpg": "/hw6/static/media/eliberty4.b89d5c2b.jpg",
@@ -31,6 +31,6 @@
   "static/media/nickles4.jpg": "/hw6/static/media/nickles4.effd3ba2.jpg",
   "static/css/main.f41c4f4f.chunk.css.map": "/hw6/static/css/main.f41c4f4f.chunk.css.map",
   "index.html": "/hw6/index.html",
-  "precache-manifest.165c7f0e8fbc5f0abb48ab0d7529f072.js": "/hw6/precache-manifest.165c7f0e8fbc5f0abb48ab0d7529f072.js",
+  "precache-manifest.07cfdb68db101a3f6012f076bd9abbb5.js": "/hw6/precache-manifest.07cfdb68db101a3f6012f076bd9abbb5.js",
   "service-worker.js": "/hw6/service-worker.js"
 }
