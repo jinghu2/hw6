@@ -1,25 +1,60 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Store from './Store.js';
+import About from './About.js';
+import dogCookieBackdrop from './images/dog-cookies.jpg';
+import pupIcon from './images/pupIcon.svg';
+import boneIcon from './images/bone.svg';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: 0,
+    };
+  }
+
+
+  navToShopPage() {
+    this.setState({page: 0})
+  }
+
+  renderPageView() {
+    if(this.state.page === 0)
+      return <Store/>
+    if(this.state.page === 1)
+      return <About/>
+  }
+
+
   render() {
     return (
+      <div>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Click to Learn React
-          </a>
-        </header>
+        <div className = "App-background" />
+        <div className = "App-content">
+        <div className = "homeMenu">
+            <div className = {"homeButton" + (this.state.page === 0 ? " active" : "")} onClick={this.navToShopPage.bind(this)}>my Ann Arbor</div>
+          </div>
+          <div className = "App-navMenu">
+            <div className = {"App-navMenu-button" + (this.state.page === 0 ? " active" : "")} onClick={this.navToShopPage.bind(this)}>Rackham</div>
+            <div className = {"App-navMenu-button" + (this.state.page === 1 ? " active" : "")} onClick={(ev) => this.setState({page: 1})} >Diag</div>
+            <div className = {"App-navMenu-button" + (this.state.page === 1 ? " active" : "")} onClick={(ev) => this.setState({page: 1})} >Dana</div>
+            <div className = {"App-navMenu-button" + (this.state.page === 1 ? " active" : "")} onClick={(ev) => this.setState({page: 1})} >E.Liberty</div>
+            <div className = {"App-navMenu-button" + (this.state.page === 1 ? " active" : "")} onClick={(ev) => this.setState({page: 1})} >Nickles</div>
+          </div>
+          <div>
+          <p className="homeIntro">
+              <br/><br/><br/>Only after leaving Ann Arbor did I realize<br/> it is one of the few places I feel as home.
+              </p>
+          </div>
+          {this.renderPageView()}
+
+        </div>
+      </div>
+      <footer className='foot'>
+          <p>Jing Hu @ 2018</p>
+        </footer>
       </div>
     );
   }
