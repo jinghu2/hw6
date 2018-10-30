@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Store from './Store.js';
-import About from './About.js';
-import dogCookieBackdrop from './images/dog-cookies.jpg';
-import pupIcon from './images/pupIcon.svg';
-import boneIcon from './images/bone.svg';
+import Diag from './Diag.js';
 
 class App extends Component {
   constructor(props) {
@@ -23,7 +20,7 @@ class App extends Component {
     if(this.state.page === 0)
       return <Store/>
     if(this.state.page === 1)
-      return <About/>
+      return <Diag/>
   }
 
 
