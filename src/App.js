@@ -7,6 +7,10 @@ import Eliberty from './Eliberty.js';
 import Nickles from './Nickles.js';
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "my Ann Arbor"
+  }
+
   constructor(props) {
     super(props);
     this.state = {

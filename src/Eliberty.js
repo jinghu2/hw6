@@ -64,10 +64,10 @@ class Eliberty extends Component{
       <header className="App-header">
             <h1 className="App-title">E.Liberty</h1>
             <p className="App-intro">
-              Every June, Ann Arbor's Summer festival will be held on the lawn in 
-              front of the Rackham Building. The summer breeze, the dancing crowds, 
-              the late-night movies, and my friends sitting next to me taking a selfie......
-              This is the best memory I have about Ann Arbor.
+              E.Liberty street is the main street in downtown Ann Arbor. It is 
+              the place we went to when we finished all assignments and midterms. 
+              It is the pearl of this small town Ann Arbor. There are restaurants, 
+              theatre, shops and street artists.
             </p>
           </header>
         {elements}
