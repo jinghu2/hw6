@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/dana2.5c8eb6c3.jpg"
   },
   {
-    "revision": "a1bcb4acce9fa356d79a",
+    "revision": "56aac2c9e094ef408b64",
     "url": "/hw6/static/css/main.f41c4f4f.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/dana1.ac0c5746.jpg"
   },
   {
-    "revision": "a1bcb4acce9fa356d79a",
-    "url": "/hw6/static/js/main.a1bcb4ac.chunk.js"
+    "revision": "56aac2c9e094ef408b64",
+    "url": "/hw6/static/js/main.56aac2c9.chunk.js"
   },
   {
     "revision": "ede98f0c19b18798f99f571f4a7b7a91",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/hw6/static/media/nickles4.effd3ba2.jpg"
   },
   {
-    "revision": "ae0d3b9b658ed8e2cc6e6439ff38fb91",
+    "revision": "cd2b4220c3b3ad25d19ab9becf01c71d",
     "url": "/hw6/index.html"
   }
 ];

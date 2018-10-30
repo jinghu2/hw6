@@ -1,7 +1,7 @@
 {
   "main.css": "/hw6/static/css/main.f41c4f4f.chunk.css",
-  "main.js": "/hw6/static/js/main.a1bcb4ac.chunk.js",
-  "main.js.map": "/hw6/static/js/main.a1bcb4ac.chunk.js.map",
+  "main.js": "/hw6/static/js/main.56aac2c9.chunk.js",
+  "main.js.map": "/hw6/static/js/main.56aac2c9.chunk.js.map",
   "static/js/1.e2ab034d.chunk.js": "/hw6/static/js/1.e2ab034d.chunk.js",
   "static/js/1.e2ab034d.chunk.js.map": "/hw6/static/js/1.e2ab034d.chunk.js.map",
   "runtime~main.js": "/hw6/static/js/runtime~main.a039d7b3.js",
@@ -31,6 +31,6 @@
   "static/media/nickles4.jpg": "/hw6/static/media/nickles4.effd3ba2.jpg",
   "static/css/main.f41c4f4f.chunk.css.map": "/hw6/static/css/main.f41c4f4f.chunk.css.map",
   "index.html": "/hw6/index.html",
-  "precache-manifest.07cfdb68db101a3f6012f076bd9abbb5.js": "/hw6/precache-manifest.07cfdb68db101a3f6012f076bd9abbb5.js",
+  "precache-manifest.57f7f973f6fd41925c93c6534e0a6034.js": "/hw6/precache-manifest.57f7f973f6fd41925c93c6534e0a6034.js",
   "service-worker.js": "/hw6/service-worker.js"
 }
