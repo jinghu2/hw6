@@ -47,7 +47,7 @@
   cursor: default;
 }
 .active{
-  font-weight: bold; /*#FF9999*/
+  text-decoration: underline; /*#FF9999*/
 }
 .App-navMenu-button:hover{
   text-decoration: underline;
@@ -71,6 +71,9 @@
   cursor: default;
   font-weight: bold;
 }
+.active {
+  text-decoration:none;
+}
 .homeButton:hover{
   text-decoration:none;
 }
@@ -79,6 +82,7 @@
 .App-header {
   padding-right: 160px;
   padding-left: 160px;
+  margin-bottom: 40px;
   text-align: center;
   align-content: center;
 }
@@ -130,18 +134,23 @@
 .productWrapper{
   display: inline-block;
   padding: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   width: 400px;
-  height: 250px;
+  max-height: 650px;
   text-align: left;
   line-height: 25px;
   font-size: 14px;
   font-style: italic;
+  vertical-align: top;
 }
 
 
 .productImage{
   width: 100%;
   max-width:600px;
+  max-height: 600px;
+  vertical-align: top;
 }
 .productImage:hover {
     opacity: 0.7;
@@ -198,11 +207,17 @@
 }
 
 .detailTitle {
-  margin-top: 15px;
+  margin-top: 30px;
   color: white;
   text-align: center;
   max-width:650px;
   font-size: 20px;
+}
+
+.productLabel {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14px;
 }
 
 .detailLabel{
@@ -228,7 +243,7 @@
 .foot {
   text-align: center;
   font-size: 13px;
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: black;
   color: white;
   padding: 0.2px;

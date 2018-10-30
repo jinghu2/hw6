@@ -3,24 +3,22 @@ import './App.css';
 import StoreItem from './StoreItem.js';
 import DetailItemView from './DetailItemView.js'
 
-import peanutButterCookie from './images/rackham01full.jpg';
-import baconCookie from './images/rackham02full.jpg';
-import sausageCookie from './images/rackham03full.jpg';
-import rackham04full from './images/rackham04full.jpg';
-import rackham05full from './images/rackham05full.jpg';
+import peanutButterCookie from './images/diag05.jpg';
+import baconCookie from './images/diag01.jpg';
+import sausageCookie from './images/diag03.jpg';
+import rackham04full from './images/diag04.jpg';
 
 
 class Diag extends Component{
   constructor(props) {
     super(props);
-    var peanutButter = {image: peanutButterCookie, altText: "dog cookie", description: "Rackham building"}
-    var bacon = {image: baconCookie, altText: "dog cookie", description: "Rackham lawn"}
-    var sausage = {image: sausageCookie, altText: "dog cookie", description: "My friends"}
-    var dietPeanut = {image: rackham04full, altText: "dog cookie", description: "Music festival"}
-    var rackham05 = {image: rackham05full, altText: "dog cookie", description: "Street food"}
+    var peanutButter = {image: peanutButterCookie, altText: "dog cookie", description: "Diag in Summer"}
+    var bacon = {image: baconCookie, altText: "dog cookie", description: "Diag in Fall"}
+    var sausage = {image: sausageCookie, altText: "dog cookie", description: "Diag in Winter"}
+    var dietPeanut = {image: rackham04full, altText: "dog cookie", description: "Diag in Spring"}
 
     this.state = {
-      inventory: [peanutButter, bacon, sausage, dietPeanut, rackham05],
+      inventory: [peanutButter, bacon, sausage, dietPeanut],
       detail: null,
     }
   }
