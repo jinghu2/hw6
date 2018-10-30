@@ -12,10 +12,10 @@ import rackham04full from './images/nickles4.jpg';
 class Nickles extends Component{
   constructor(props) {
     super(props);
-    var peanutButter = {image: peanutButterCookie, altText: "dog cookie", description: "Rackham building"}
-    var bacon = {image: baconCookie, altText: "dog cookie", description: "Rackham lawn"}
-    var sausage = {image: sausageCookie, altText: "dog cookie", description: "My friends"}
-    var dietPeanut = {image: rackham04full, altText: "dog cookie", description: "Music festival"}
+    var peanutButter = {image: peanutButterCookie, altText: "dog cookie", description: "Nickles landscape"}
+    var bacon = {image: baconCookie, altText: "dog cookie", description: "A shop in Nickles Arcade"}
+    var sausage = {image: sausageCookie, altText: "dog cookie", description: "Flowers"}
+    var dietPeanut = {image: rackham04full, altText: "dog cookie", description: "Nickles portrait"}
 
     this.state = {
       inventory: [peanutButter, bacon, sausage, dietPeanut],
